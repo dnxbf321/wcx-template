@@ -1,0 +1,26 @@
+{
+  "name": "wcx-template",
+  "version": "0.0.1",
+  "description": "微信小程序模板 for wcx",
+  "keywords": [
+    "front-end",
+    "template",
+    "weixin",
+    "wechat",
+    "xiaochengxu"
+  ],
+  "main": "pages/index/index",
+  "homepage": "https://github.com/dnxbf321/wcx-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://dnxbf321@github.com/dnxbf321/wcx-template.git"
+  },
+  "author": "Jason Deng",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "query-string": "^4.3.1"
+  },
+  "devDependencies": {}
+}

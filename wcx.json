@@ -1,0 +1,16 @@
+{
+  "webpack": {
+    "banner": "copyright all served."
+  },
+  "postcss": {},
+  "default": {
+    "dev-port": 9000,
+    "publicPath": "http://127.0.0.1:9000"
+  },
+  "experiment": {
+    "publicPath": "http://exp.staticserver.com"
+  },
+  "production": {
+    "publicPath": "http://staticserver.com"
+  }
+}

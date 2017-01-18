@@ -1,0 +1,2 @@
+<view class="hello">Hello {{name}}</view>
+<button class="btn" type="primary" bindtap="changeName">Click</button>

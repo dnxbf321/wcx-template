@@ -1,0 +1,11 @@
+button {
+  margin: 10px;
+}
+.hello {
+  padding: 20px 0;
+
+  text-align: center;
+}
+.btn {
+  background: resolve('static/icon.png');
+}
