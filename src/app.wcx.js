@@ -24,6 +24,8 @@ App({
         }
       })
     }
+    // vars.car 引用的 wcx.json 内的环境变量
+    console.log(vars.car)
   },
   globalData: {
     userInfo: null

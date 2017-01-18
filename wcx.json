@@ -1,16 +1,32 @@
 {
+  "ftp": {
+    "host": "10.0.0.10",
+    "port": 22,
+    "username": "root",
+    "password": "rootpassword",
+    "remotePath": "/home/frontend/workspace/wcx"
+  },
   "webpack": {
     "banner": "copyright all served."
   },
   "postcss": {},
   "default": {
     "dev-port": 9000,
-    "publicPath": "http://127.0.0.1:9000"
+    "publicPath": "http://127.0.0.1:9000",
+    "vars": {
+      "car": "QQ"
+    }
   },
   "experiment": {
-    "publicPath": "http://exp.staticserver.com"
+    "publicPath": "http://exp.staticserver.com",
+    "vars": {
+      "car": "Tesla"
+    }
   },
   "production": {
-    "publicPath": "http://staticserver.com"
+    "publicPath": "http://staticserver.com",
+    "vars": {
+      "car": "Benz"
+    }
   }
 }
