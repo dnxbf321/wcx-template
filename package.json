@@ -18,13 +18,13 @@
   "author": "Jason Deng",
   "license": "MIT",
   "scripts": {
-    "dev": "wcx-dev build -e dev --serve --watch",
-    "build-dev": "wcx-dev build -e dev",
-    "build-exp": "wcx-dev build -e exp",
-    "build": "wcx-dev build",
-    "upload": "wcx-dev upload",
-    "clean": "wcx-dev clean",
-    "pack": "wcx-dev pack"
+    "dev": "wcx build -e dev --serve --watch",
+    "build-dev": "wcx build -e dev",
+    "build-exp": "wcx build -e exp",
+    "build": "wcx build",
+    "upload": "wcx upload",
+    "clean": "wcx clean",
+    "pack": "wcx pack"
   },
   "dependencies": {
     "dateformat": "^2.0.0",
